@@ -34,7 +34,7 @@ shortest_dist(pidx) = 0;
 table(pidx,col) = 0;
 % initialize first pidx location for settled array
 settled(pidx) = 1;
-% initilize pidx location for path 
+% initilize pidx location for the path 
 path(pidx) = {startID};
  
 %% Calculate shortest path for all nodes
